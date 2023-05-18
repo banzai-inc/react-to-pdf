@@ -1,5 +1,5 @@
 {
-  "name": "react-to-pdf",
+  "name": "@banzai-inc/react-to-pdf",
   "version": "0.0.14",
   "description": "Create pdf documents from React Components",
   "main": "lib/index.js",
@@ -34,14 +34,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivmarcos/react-to-pdf.git"
+    "url": "git+https://github.com/banzai-inc/react-to-pdf.git"
   },
   "author": "Marcos Andrei Ivanechtchuk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ivmarcos/react-to-pdf/issues"
+    "url": "https://github.com/banzai-inc/react-to-pdf/issues"
   },
-  "homepage": "https://github.com/ivmarcos/react-to-pdf#readme",
+  "homepage": "https://github.com/banzai-inc/react-to-pdf#readme",
   "dependencies": {
     "html2canvas": "1.0.0-alpha.12",
     "jspdf": "^2.3.1"
@@ -98,7 +98,10 @@
     "webpack": "^4.18.0"
   },
   "peerDependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "^16.5.2 || ^17.0.0",
+    "react-dom": "^16.5.2 || ^17.0.0"
+  },
+  "volta": {
+    "node": "10.24.1"
   }
 }
