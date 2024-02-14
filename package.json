@@ -1,6 +1,6 @@
 {
   "name": "@banzai-inc/react-to-pdf",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Create pdf documents from React Components",
   "main": "lib/index.js",
   "module": "umd/react-to-pdf.js",
@@ -98,8 +98,8 @@
     "webpack": "^4.18.0"
   },
   "peerDependencies": {
-    "react": "^16.5.2 || ^17.0.0",
-    "react-dom": "^16.5.2 || ^17.0.0"
+    "react": "^16.5.2 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.5.2 || ^17.0.0 || ^18.0.0"
   },
   "volta": {
     "node": "10.24.1"
